@@ -2,7 +2,6 @@ get '/' do
   erb :index
 end
 
-
 # TODO: convert this route to use AJAX
 post '/rolls' do
   # If the user passes-in a "value", let's use it. Otherwise, we'll generate a random one.
@@ -13,3 +12,4 @@ post '/rolls' do
 
   erb :index  # HINT: what does this do? what should we do instead?
 end
+
